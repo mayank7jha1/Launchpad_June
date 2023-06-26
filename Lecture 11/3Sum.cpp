@@ -61,11 +61,15 @@ int main() {
 				k = k + 1;
 			}
 		}
-
+		int size = k;
+		cout << size << endl;
 		int flag = 0;
-		for (int i = 0; i <= 27; i = i + 1) {
-			for (int j = i + 1; j <= 28; j = j + 1) {
-				for (int k = j + 1; k <= 29; k = k + 1) {
+		for (int i = 0; i < size - 2; i = i + 1) {
+
+			for (int j = i + 1; j < size - 1; j = j + 1) {
+
+				for (int k = j + 1; k < size; k = k + 1) {
+
 					if ((ans[i] + ans[j] + ans[k]) % 10 == 3) {
 						flag = 1;
 					}
