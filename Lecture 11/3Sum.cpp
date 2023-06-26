@@ -62,7 +62,7 @@ int main() {
 			}
 		}
 		int size = k;
-		cout << size << endl;
+		//cout << size << endl;
 		int flag = 0;
 		for (int i = 0; i < size - 2; i = i + 1) {
 
