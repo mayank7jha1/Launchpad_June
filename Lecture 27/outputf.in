@@ -1,13 +1,16 @@
-Static Variable x 6
-Static Variable y 10
-Static Array: 
-1 2 3 4 5 6 7 8 9 10 
-Static Array: 
-1 2 3 4 5 
-100
-120
-130
-1 2 3 4 
-1 2 3 4 
-10 11 12 13 14 
-11 13 14 19 32 
+Inside My Default Constructor 
+Inside My Parameterised Constructor 1 
+Inside My Parameterised Constructor 2 
+Inside My Copy Constructor
+Name of the Car is TMW
+Model No. of the Car is 1201
+The Price of the Car is 21000
+Condition of the Car is Very Good
+The Color of the Car is Slack
+
+Name of the Car is BMW
+Model No. of the Car is 1201
+The Price of the Car is 21000
+Condition of the Car is Very Good
+The Color of the Car is Black
+
