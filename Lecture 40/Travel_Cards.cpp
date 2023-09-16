@@ -4,7 +4,7 @@
 #include<algorithm>
 using  namespace std;
 #define int long long
-int n, a, b, k, f;
+
 
 // bool compare(int x, int y) {
 
@@ -16,6 +16,7 @@ int n, a, b, k, f;
 // }
 
 int Travel_Card() {
+	int n, a, b, k, f;
 	cin >> n >> a >> b >> k >> f;
 	string prev_dest = "";
 
@@ -65,7 +66,7 @@ int Travel_Card() {
 	// }
 	// cout << endl;
 
-	for (int i = 0; i < k; i++) {
+	for (int i = 0; i < k and i < cost.size(); i++) {
 		if (cost[i] >= f) {
 			Total_Cost = Total_Cost - cost[i] + f;
 		} else {
